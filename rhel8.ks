@@ -14,5 +14,5 @@ firstboot --disable
 selinux --enforcing
 firewall --enabled --ssh
 %packages
-@^graphical-server-environment
+@^minimal-environment
 %end
