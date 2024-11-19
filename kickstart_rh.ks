@@ -21,7 +21,7 @@ network  --hostname=localhost.localdomain
 # Run the Setup Agent on first boot
 firstboot --enable
 
-ignoredisk --only-use=nvme0n1
+#ignoredisk --only-use=nvme0n1
 autopart
 # Partition clearing information
 clearpart --none --initlabel
